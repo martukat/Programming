@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * PROGRAMA JUEGO DE LA VUDA
+ * PROGRAMA JUEGO DE LA VIDA
  * 
  * Tras varios cambios, he logrado poner el lector de archivos, pero tras tantos cambios no he sido capaz
  * de que funcione correctamente. No obstante, me he quedado sin tiempo, pero a lo largo de los días intentare
@@ -244,8 +244,9 @@ public class JuegoDeLaVidaV1 {
 
 
 	public static void main(String[] args) {
-
-		final String RUTA_LECTURA = "C:\\Users\\marta\\Desktop\\PROYECTO_PROGRAMACION\\inicioVida.csv";
+		
+		//ahora el archivo se carga desde una carpeta del proyecto
+		final String RUTA_LECTURA = "CSVs/inicioVida.txt";
 
 		cargaCSV(RUTA_LECTURA);
 
